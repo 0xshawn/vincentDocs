@@ -38,39 +38,46 @@ export default [
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '0bd'),
+    path: '/',
+    component: ComponentCreator('/', '63b'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', 'e8c'),
+        path: '/',
+        component: ComponentCreator('/', '595'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', 'a5d'),
+            path: '/',
+            component: ComponentCreator('/', '8a1'),
             routes: [
               {
-                path: '/docs/Developers/Custom-Tools',
-                component: ComponentCreator('/docs/Developers/Custom-Tools', '3db'),
+                path: '/Contact-Us',
+                component: ComponentCreator('/Contact-Us', 'd05'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Developers/Quick-Start',
-                component: ComponentCreator('/docs/Developers/Quick-Start', '9da'),
+                path: '/Developers/Custom-Tools',
+                component: ComponentCreator('/Developers/Custom-Tools', 'a12'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Developers/Why-Vincent',
-                component: ComponentCreator('/docs/Developers/Why-Vincent', 'b20'),
+                path: '/Developers/Quick-Start',
+                component: ComponentCreator('/Developers/Quick-Start', '651'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Users/Quick-Start',
-                component: ComponentCreator('/docs/Users/Quick-Start', 'aff'),
-                exact: true
+                path: '/Users/Onboarding',
+                component: ComponentCreator('/Users/Onboarding', '855'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/',
+                component: ComponentCreator('/', 'b6b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               }
             ]
           }

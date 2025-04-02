@@ -5,9 +5,9 @@
  */
 export default {
   "title": "Welcome to Vincent",
-  "tagline": "AI Agent Management",
-  "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
+  "tagline": "AI Agent Wallet Delegation Management",
+  "favicon": "img/vincent-favicon.png",
+  "url": "https://docs.heyvincent.ai",
   "baseUrl": "/",
   "organizationName": "LIT-Protocol",
   "projectName": "vincent",
@@ -27,21 +27,8 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/LIT-Protocol/Vincent"
-        },
-        "blog": {
-          "showReadingTime": true,
-          "feedOptions": {
-            "type": [
-              "rss",
-              "atom"
-            ],
-            "xslt": true
-          },
-          "editUrl": "https://github.com/LIT-Protocol/Vincent",
-          "onInlineTags": "warn",
-          "onInlineAuthors": "warn",
-          "onUntruncatedBlogPosts": "warn"
+          "editUrl": "https://github.com/LIT-Protocol/vincentDocs",
+          "routeBasePath": "/"
         },
         "theme": {
           "customCss": [
@@ -53,21 +40,16 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/lit-logo.svg",
     "navbar": {
       "logo": {
         "alt": "Vincent Logo",
-        "src": "img/lit-logo.svg"
+        "src": "img/vincent-logo-black.png"
       },
       "items": [
         {
-          "to": "/docs/Developers/Why-Vincent",
-          "label": "Developers",
-          "position": "left"
-        },
-        {
-          "to": "/docs/Users/Quick-Start",
-          "label": "Users",
+          "to": "/",
+          "label": "Docs",
           "position": "left"
         },
         {
@@ -87,11 +69,15 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "Lit Protocol",
           "items": [
             {
-              "label": "Tutorial",
-              "to": "/docs/intro"
+              "label": "Learn More",
+              "href": "https://www.litprotocol.com/"
+            },
+            {
+              "label": "Developer Docs",
+              "href": "https://developer.litprotocol.com/"
             }
           ]
         },
@@ -126,7 +112,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright 2025 Vincent, Built by Lit"
+      "copyright": "Copyright 2025 Vincent, By Lit"
     },
     "prism": {
       "theme": {

@@ -1,20 +1,22 @@
 {
   "id": "Why-Vincent",
-  "title": "Why use Vincent?",
-  "description": "Getting Started",
+  "title": "Why Vincent?",
+  "description": "Vincent enables user's to delegate their wallets to Agentic applications for autonomous signing. Users can precisely define the scope of their delegation. For example, a delegated agent can sign only Uniswap swap transactions for a max of $100/day but it won't be able to sign any other type of transactions or exceed the spend limit set by the user. App delegations are stored the Yellowstone blockchain and the Agent Wallets are managed by Lit Protocol which is an MPC TSS network.",
   "source": "@site/docs/Why-Vincent.md",
   "sourceDirName": ".",
-  "slug": "/Why-Vincent",
-  "permalink": "/docs/Why-Vincent",
+  "slug": "/",
+  "permalink": "/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/LIT-Protocol/Vincent/docs/Why-Vincent.md",
+  "editUrl": "https://github.com/LIT-Protocol/vincentDocs/docs/Why-Vincent.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "slug": "/"
+  },
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Quick Start",
-    "permalink": "/docs/Quick-Start"
+    "permalink": "/Developers/Quick-Start"
   }
 }

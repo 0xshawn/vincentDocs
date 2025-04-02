@@ -1,41 +1,47 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
-          "mainDocId": "Developers/Why-Vincent",
+          "path": "/",
+          "mainDocId": "Why-Vincent",
           "docs": [
             {
+              "id": "Contact-Us",
+              "path": "/Contact-Us",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Developers/Custom-Tools",
-              "path": "/docs/Developers/Custom-Tools",
+              "path": "/Developers/Custom-Tools",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Developers/Quick-Start",
-              "path": "/docs/Developers/Quick-Start",
+              "path": "/Developers/Quick-Start",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Developers/Why-Vincent",
-              "path": "/docs/Developers/Why-Vincent",
+              "id": "Users/Onboarding",
+              "path": "/Users/Onboarding",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Users/Quick-Start",
-              "path": "/docs/Users/Quick-Start"
+              "id": "Why-Vincent",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/Developers/Why-Vincent",
-                "label": "Developers/Why-Vincent"
+                "path": "/",
+                "label": "Why-Vincent"
               }
             }
           }

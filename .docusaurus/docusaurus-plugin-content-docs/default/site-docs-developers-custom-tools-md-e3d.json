@@ -5,16 +5,20 @@
   "source": "@site/docs/Developers/Custom-Tools.md",
   "sourceDirName": "Developers",
   "slug": "/Developers/Custom-Tools",
-  "permalink": "/docs/Developers/Custom-Tools",
+  "permalink": "/Developers/Custom-Tools",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/LIT-Protocol/Vincent/docs/Developers/Custom-Tools.md",
+  "editUrl": "https://github.com/LIT-Protocol/vincentDocs/docs/Developers/Custom-Tools.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Quick Start",
-    "permalink": "/docs/Developers/Quick-Start"
+    "permalink": "/Developers/Quick-Start"
+  },
+  "next": {
+    "title": "Onboarding",
+    "permalink": "/Users/Onboarding"
   }
 }
